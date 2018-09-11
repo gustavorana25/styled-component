@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button>Teste</Button>
+        <Button theme={{ mode: "primary" }}>Teste</Button>
       </div>
     );
   }
