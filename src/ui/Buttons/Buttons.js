@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import theme from 'styled-theming'
+import theme from '../helpers/theme';
 
-const ButtonColors = theme('mode', {
+const ButtonColors = theme('type', {
     default: '#f00',
     primary: '#2185d0'
-})
-
+});
 
 export const Button = styled.button`
     display: inline-block;
