@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button} from './ui/Buttons/Buttons';
+import {Button} from './uikit/Buttons/Buttons';
 
 class App extends Component {
   render() {
